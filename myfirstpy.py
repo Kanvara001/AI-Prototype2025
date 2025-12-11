@@ -2,7 +2,8 @@ import time
 
 if __name__=="__main__":
 
-    for i in range(50) :
+    for i in range(50):
         time.sleep(1)
-        print('XXX{i}XXX')
+        print(f'XXX{i}XXX')
     print('Kanvara')
+    print('Thawarorit')
