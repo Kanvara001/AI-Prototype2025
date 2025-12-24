@@ -1,35 +1,5 @@
 # Cloud Virtual Machines  
-## Lecture Class : Azure Virtual Machine
 
-เอกสารนี้ใช้สำหรับแนะนำแนวคิดพื้นฐานของการใช้งาน **Cloud Virtual Machine (VM)**  
-โดยใช้บริการของ **Microsoft Azure** เพื่อสร้างและจัดการ Server บนระบบคลาวด์
-
----
-
-## Cloud Service Models
-
-บริการคลาวด์สามารถแบ่งรูปแบบการใช้งานหลักออกเป็น 3 ประเภท
-
-### 1. Infrastructure as a Service (IaaS)
-ผู้ใช้สามารถควบคุมโครงสร้างพื้นฐานได้โดยตรง เช่น  
-Virtual Machine, Storage, Network  
-ผู้ให้บริการดูแลเฉพาะ Hardware
-
-### 2. Platform as a Service (PaaS)
-ผู้ให้บริการจัดเตรียม Platform สำหรับพัฒนาแอปพลิเคชัน  
-ผู้ใช้ไม่ต้องดูแล Server หรือระบบปฏิบัติการเอง
-
-### 3. Software as a Service (SaaS)
-ผู้ใช้ใช้งานซอฟต์แวร์ผ่านอินเทอร์เน็ตได้ทันที  
-ไม่ต้องติดตั้งหรือดูแลระบบเอง
-
----
-
-## การเข้าใช้งาน Microsoft Azure
-
-- สมัครใช้งานผ่าน **Microsoft Azure for Students**
-- เข้าใช้งานผ่าน **Azure Portal**  
-  Project: `ai_prototype_25`
 
 ---
 
