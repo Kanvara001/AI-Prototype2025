@@ -3,8 +3,7 @@
 
 ## Virtual Machine (VM) บน Azure
 
-Virtual Machine คือ Server เสมือนที่ทำงานอยู่บนคลาวด์  
-สามารถใช้งานได้เหมือนเครื่อง Linux จริง
+Virtual Machine คือ Server เสมือนที่ทำงานอยู่บนคลาวด์ สามารถใช้งานได้เหมือนเครื่อง Linux จริง
 
 ### ขั้นตอนการสร้าง VM
 
