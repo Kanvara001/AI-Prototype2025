@@ -1,8 +1,6 @@
 # Cloud Virtual Machines  
 
 
----
-
 ## Virtual Machine (VM) บน Azure
 
 Virtual Machine คือ Server เสมือนที่ทำงานอยู่บนคลาวด์  
