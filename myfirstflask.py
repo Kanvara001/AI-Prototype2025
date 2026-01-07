@@ -3,7 +3,7 @@ import json
 import sys 
 #import pandas as pd
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 
 @app.route("/")  #บอกว่าเรียกใช้ web ไหน
@@ -36,6 +36,23 @@ def web_service_API_POST():
     json_data = json.dumps({'y': 'received!'}) # ส่งกลับไปว่าได้รับเเล้ววว
     return json_data
 
+@app.route('/request_POSTGET',methods=['POST','GET']) 
+def web_service_API_POST():
+
+    if request.methpd == 'GET':
+        msg = request.args.get('msg')
+        name = request.args.get('name')
+        print(f'the input message from GET is {msg} from{name}.')
+        return f'{msg} from{name} received'
+
+    payload = request.data.decode("utf-8")
+    inmessage = json.loads(payload) # ทำ json
+
+    print(inmessage)
+    
+    
+    json_data = json.dumps({'y': 'received!'}) # ส่งกลับไปว่าได้รับเเล้ววว
+    return json_data
 
 
 if _name_ == "_main_":   # run code 
