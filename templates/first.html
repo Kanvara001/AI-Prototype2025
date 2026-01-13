@@ -3,52 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iris Species Predictor</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Iris Intelligence</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 
     <div class="card">
-        <h2>Iris Classifier</h2>
-        <p class="subtitle">Enter flower measurements below</p>
+        <h2>Iris Analysis</h2>
+        <p class="subtitle">AI-Powered Botanical Classification</p>
         
         <form action="/predict" method="post" id="irisForm">
             <div class="input-grid">
-                <div>
+                <div class="form-group">
                     <label>Sepal Length</label>
                     <input type="number" step="0.1" name="sepal_length" required placeholder="5.1">
                 </div>
-                <div>
+                <div class="form-group">
                     <label>Sepal Width</label>
                     <input type="number" step="0.1" name="sepal_width" required placeholder="3.5">
                 </div>
-                <div>
+                <div class="form-group">
                     <label>Petal Length</label>
                     <input type="number" step="0.1" name="petal_length" required placeholder="1.4">
                 </div>
-                <div>
+                <div class="form-group">
                     <label>Petal Width</label>
                     <input type="number" step="0.1" name="petal_width" required placeholder="0.2">
                 </div>
             </div>
 
-            <button type="submit" id="predictBtn">Analyze Flower</button>
+            <button type="submit" id="predictBtn">Run Analysis</button>
         </form>
 
         {% if prediction_text %}
-        <div class="{{ 'error-box' if 'Error' in prediction_text else 'result-box' }}">
-            {{ prediction_text }}
-            
-            {% if flower_image %}
-            <div style="margin-top: 15px;">
-                <img src="{{ url_for('static', filename='images/' + flower_image) }}" 
-                     alt="Flower Image" 
-                     style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-            </div>
+            {% if 'Error' in prediction_text %}
+                <div class="error-box">
+                    {{ prediction_text }}
+                </div>
+            {% else %}
+                <div class="result-box">
+                    <span class="result-tag">Classification Result</span>
+                    
+                    <div class="result-title">
+                        {{ prediction_text.replace('Prediction:', '') }}
+                    </div>
+                    
+                    {% if flower_image %}
+                    <div class="image-frame">
+                        <img src="{{ url_for('static', filename='images/' + flower_image) }}" alt="Predicted Flower">
+                    </div>
+                    {% endif %}
+                </div>
             {% endif %}
-            
-        </div>
         {% endif %}
     </div>
 
