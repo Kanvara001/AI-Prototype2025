@@ -46,4 +46,4 @@ def predict():
     return render_template('first.html', prediction_text=result, flower_image=image_filename)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0',debug=True,port=8002)
