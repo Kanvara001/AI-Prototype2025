@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoViztion Monitor - Drought & Vegetation DSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Sarabun:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <i class="fas fa-satellite-dish"></i> GeoViztion Monitor
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#abstract">Abstract</a></li>
+            <li><a href="#workflow">Workflow</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#resources" class="btn-nav">Launch App</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <div class="header-overlay">
+            <div class="header-content">
+                <span class="tag">SIDS Project | Statistical Data Analysis</span>
+                
+                <h1>Development of a Decision Support System<br>for Assessing Drought and Vegetation Health</h1>
+                <h2 class="sub-title">at the Sub-district Level in Khon Kaen and Neighboring Provinces<br>Using Remote Sensing Technology</h2>
+                
+                <div class="divider"></div>
+
+                <p class="th-title">
+                    โครงการ: การพัฒนาระบบสนับสนุนการตัดสินใจเพื่อประเมินภัยแล้งและความสมบูรณ์ของพืชพรรณ<br>
+                    ในระดับตำบล ในพื้นที่ขอนแก่นและจังหวัดใกล้เคียง ด้วยเทคโนโลยีการสำรวจระยะไกล
+                </p>
+                
+                <div class="cta-group">
+                    <a href="#abstract" class="btn btn-outline">Read Abstract</a>
+                    <a href="#" class="btn btn-primary" onclick="alert('System is under development (Coming Soon)')">
+                        <i class="fas fa-chart-line"></i> Go to Dashboard
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="abstract" class="container">
+        <div class="section-header">
+            <h2>Abstract</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="abstract-box">
+            <p>
+                Northeastern Thailand is a region highly vulnerable to natural disasters, particularly drought, which severely affects the economy and the quality of life of local communities. The impacts are especially pronounced in the agricultural sector, which relies heavily on rainfall. Khon Kaen Province and its surrounding areas represent a strategically important region in Northeastern Thailand in terms of economic activities, transportation networks, and agricultural production. Moreover, the physical and environmental characteristics of this area—such as extensive agricultural land, rainfed farming systems, and frequent drought occurrences—closely reflect the overall conditions of the region, making it an appropriate representative area for spatial drought assessment and analysis.
+            </p>
+            <p>
+                Traditionally, drought monitoring in Thailand has relied primarily on ground-based observation stations, including rainfall, temperature, soil properties, and humidity measurements. However, such approaches are constrained by limited spatial coverage, low temporal resolution, and high resource requirements. In contrast, remote sensing technology, in combination with Geographic Information Systems (GIS), offers significant advantages for large-scale and continuous environmental monitoring. Satellite-derived indicators such as the Normalized Difference Vegetation Index (NDVI), Land Surface Temperature (LST), soil moisture, rainfall, and fire occurrence provide valuable insights into drought conditions and vegetation health across broad spatial and temporal scales.
+            </p>
+            <p>
+                Despite the high accuracy of remote sensing data, their technical complexity often limits their direct application in policy-level decision-making. To address this challenge, this study aims to integrate remote sensing and GIS techniques to develop a web-based Decision Support System (DSS) for monitoring drought conditions and assessing vegetation health at the sub-district level. The system analyzes key environmental variables, including soil moisture, NDVI, LST, fire count, and rainfall, and presents the results through interactive dashboards and spatial visualizations.
+            </p>
+            <p>
+                The proposed system is designed to enhance data accessibility and interpretability for policymakers and relevant stakeholders, thereby supporting informed decision-making in drought management, water resource planning, and disaster mitigation. Ultimately, this research contributes to the development of an efficient, accurate, and sustainable spatial information platform for environmental monitoring and disaster risk management in Northeastern Thailand.
+            </p>
+        </div>
+    </section>
+
+
+    <section id="variables" class="bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Key Environmental Indices</h2>
+                <div class="divider"></div>
+                <p style="max-width: 700px; margin: 0 auto; color: #546e7a;">
+                    Our system monitors five critical remote sensing indices to analyze drought patterns and vegetation health comprehensively.
+                </p>
+            </div>
+            
+            <div class="variable-grid">
+                <div class="var-card">
+                    <div class="icon-box green">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>NDVI</h3>
+                    <h4>Normalized Difference Vegetation Index</h4>
+                    <p>Quantifies vegetation health and density by measuring the difference between near-infrared (which vegetation strongly reflects) and red light (which vegetation absorbs).</p>
+                </div>
+
+                <div class="var-card">
+                    <div class="icon-box red">
+                        <i class="fas fa-temperature-high"></i>
+                    </div>
+                    <h3>LST</h3>
+                    <h4>Land Surface Temperature</h4>
+                    <p>Measures the temperature of the Earth's skin. High LST often correlates with drought conditions and water stress in vegetation.</p>
+                </div>
+
+                <div class="var-card">
+                    <div class="icon-box brown">
+                        <i class="fas fa-tint-slash"></i>
+                    </div>
+                    <h3>Soil Moisture</h3>
+                    <h4>Spatially Aggregated Moisture</h4>
+                    <p>Estimates the water content in the soil, a direct indicator of agricultural drought and essential for crop growth monitoring.</p>
+                </div>
+
+                <div class="var-card">
+                    <div class="icon-box blue">
+                        <i class="fas fa-cloud-rain"></i>
+                    </div>
+                    <h3>Rainfall</h3>
+                    <h4>Precipitation Data</h4>
+                    <p>Tracks precipitation levels to identify meteorological drought and assess water supply for the region.</p>
+                </div>
+
+                <div class="var-card">
+                    <div class="icon-box orange">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>Fire Count</h3>
+                    <h4>Hotspot Detection</h4>
+                    <p>Monitors active fires and thermal anomalies, which are often indicators of extreme dryness and agricultural burning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="workflow" class="bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Project Workflow</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="workflow-container">
+                <img src="workflow.png" alt="Process Workflow Diagram" width="100%">
+                <p class="caption">Figure 1: Data processing workflow and system architecture.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="resources" class="container">
+        <div class="section-header">
+            <h2>Resources & Links</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="container text-center">
+            <div class="resource-grid">
+                <a href="project-paper.pdf" class="resource-card" target="_blank">
+                    <i class="far fa-file-pdf"></i>
+                    <h3>Project Paper</h3>
+                    <p>Download Full Report (PDF)</p>
+                </a>
+                <a href="#" class="resource-card active-card" onclick="alert('Coming Soon...')">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Application</h3>
+                    <p>Launch GeoViztion Monitor</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Project Team</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="team-grid">
+                <div class="member-card">
+                    <div class="avatar"><i class="fas fa-user-graduate"></i></div>
+                    <h3>Ms. Kanyawara Thawornrit</h3>
+                    <p class="role">Developer / Researcher</p>
+                    <p class="id-code">ID: 653020200-1</p>
+                    <p class="major">Major in SIDS</p>
+                </div>
+                <div class="member-card">
+                    <div class="avatar"><i class="fas fa-user-graduate"></i></div>
+                    <h3>Mr. Kanoknat Kruanet</h3>
+                    <p class="role">Developer / Researcher</p>
+                    <p class="id-code">ID: 653020599-4</p>
+                    <p class="major">Major in SIDS</p>
+                </div>
+                <div class="member-card advisor">
+                    <div class="avatar"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <h3>Dr. Pitchaya Wiratchotisatian</h3>
+                    <p class="role">Project Advisor</p>
+                    <p class="uni">Statistics and Data Science</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 GeoViztion Monitor. All Rights Reserved.</p>
+        <p>College of Computing, Khon Kaen University</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
