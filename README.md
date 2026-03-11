@@ -1,7 +1,7 @@
 <div align="center">
 
-# 🌍 GeoVizion: AI Prototype & Data Science Portfolio
-### *Advanced Geospatial Analytics for Natural Resources*
+# 🌍 GeoVizion: ระบบสารสนเทศเพื่อการตัดสินใจด้านสิ่งแวดล้อม
+
 
 [![GitHub](https://img.shields.io/badge/GitHub-View_Repository-181717?style=for-the-badge&logo=github)](https://github.com/Kanvara001/AI-Prototype2025.git)
 [![Web App](https://img.shields.io/badge/Web_App-GeoVizion-0078D4?style=for-the-badge&logo=azure-devops)](https://geovizion.kku.ac.th)
