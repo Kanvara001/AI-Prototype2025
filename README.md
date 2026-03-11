@@ -1,57 +1,46 @@
-# 🤖 AI_Prototype_2025
+<div align="center">
 
-**SC664401** — การสร้างต้นแบบสำหรับระบบปัญญาประดิษฐ์และการเรียนรู้ของเครื่อง (Prototyping for Artificial Intelligence and Machine Learning System) 
+# 🚀 AI Prototype & ML Systems
+### SC664401 | Academic Portfolio 2025-2026
 
-**คำอธิบายรายวิชา:** แนวคิดและขั้นตอนในการสร้างต้นแบบระบบปัญญาประดิษฐ์และการเรียนรู้ของเครื่อง การประมวลผลบนคลาวด์ เครื่องคอมพิวเตอร์แบบเสมือน การใช้งานชุดคำสั่งยูนิกส์เบื้องต้น การใช้งาน GIT เบื้องต้น การใช้งานไพธอนโน๊ตบุ๊คบนคลาวด์ การสร้างเว็ปแอพพลิเคชั่นและ API ด้วยภาษาไพธอน การพัฒนาระบบเรียนรู้เชิงลึกด้วยชุดคำสั่งไพธอน การลงบันทึกและการใช้แดชบอร์ดแสดงผลข้อมูล
-
-**Course Description:** Concepts of Artificial Intelligent/Machine Leaning system implementation and prototyping the AI/ML system: cloud computing, virtual machine, basic unix, basic GIT and version control, cloud Python notebook, webapplication and API development with Python, deep learning with Python, logging, and dashboard.
-
-**อาจารย์ผู้สอน:** ผศ.ดร.ธนพงศ์ อินทระ
+**"From Concept to Deployment: My Journey in AI Prototyping"**
 
 ---
 
-## ⏰ Timeline
+### 👤 Profile
+**กัญญ์วรา ถาวโรฤทธิ์** | รหัสนักศึกษา 653020200-1  
+*สาขาสถิติและวิทยาการข้อมูล (วิชาเอกสารสนเทศสถิติและวิทยาการข้อมูล)* 📍 มหาวิทยาลัยขอนแก่น | 📧 [kanvara.t@kkumail.com](mailto:kanvara.t@kkumail.com)
 
-| Event | Date |
-|:---:|:---:|
-| 🟢 **Course Start** | 26 พฤศจิกายน 2025 |
-| 🔴 **Final Presentation** | 11 มีนาคม 2026 |
-
----
-
-## 👤 Personal Information
-
-| | |
-|---|---|
-| 👩‍🎓 **ชื่อ** | นางสาวกัญญ์วรา ถาวโรฤทธิ์ |
-| 🪪 **รหัสนักศึกษา** | 653020200-1 |
-| 📚 **สาขา** | สถิติและวิทยาการข้อมูล (วิชาเอกสารสนเทศสถิติและวิทยาการข้อมูล) |
-| 🏫 **มหาวิทยาลัย** | มหาวิทยาลัยขอนแก่น |
-| 📧 **Email** | kanvara.t@kkumail.com |
+</div>
 
 ---
 
-## 🚀 Projects & Links
+## 🌐 Quick Access
+เข้าถึงผลงานและแหล่งข้อมูลของฉันได้จากลิงก์ด้านล่างนี้:
 
-| Platform | Link |
-|:---:|:---:|
-| 🌐 **Web Page** | [Visit Project Page](https://kanvara001.github.io/Geo_Analysis/) |
-| 📱 **Web App** | [Go to GeoVizion](https://geovizion.kku.ac.th) |
-
----
-
-## 📔 LECTURE LOG
-
-| CLASS | DESCRIPTION | LECTURE |
-|:---:|---|:---:|
-| I | Ubuntu Command Line | [Lecture Class I](Lecture%20Class%20I.md) |
-| II | Cloud Virtual Machines | [Lecture Class II](Lecture%20Class%20II.md) |
-| III | Python Environment Setup | [Lecture Class III](Lecture%20Class%20III.md) |
-| IV | Environment & Version Control | [Lecture Class IV](Lecture%20Class%20IV.md) |
+| โปรเจกต์ | ลิงก์เข้าชม |
+| :--- | :--- |
+| **Project Web Page** | [🔗 Geo_Analysis](https://kanvara001.github.io/Geo_Analysis/) |
+| **Web Application** | [🔗 GeoVizion](https://geovizion.kku.ac.th) |
+| **Source Code** | [🔗 GitHub Repository](https://github.com/Kanvara001/AI-Prototype2025.git) |
 
 ---
 
-### 💡 Workflow Overview
+## 📚 Learning Progress
+บันทึกการเรียนรู้เชิงปฏิบัติการในรายวิชา SC664401:
 
+* **Class I:** [Ubuntu Command Line](Lecture%20Class%20I.md)
+* **Class II:** [Cloud Virtual Machines](Lecture%20Class%20II.md)
+* **Class III:** [Python Environment Setup](Lecture%20Class%20III.md)
+* **Class IV:** [Environment & Version Control](Lecture%20Class%20IV.md)
 
-หากต้องการให้ผมช่วยเพิ่มส่วน **"สรุปสิ่งที่ได้เรียนรู้"** หรือ **"คำอธิบายโปรเจกต์ GeoVizion"** ลงไปใน README เพื่อให้โปรไฟล์ของคุณดูโดดเด่นและน่าสนใจยิ่งขึ้น บอกได้เลยนะครับ!
+---
+
+<div align="center">
+
+**Course Instructor:** ผศ.ดร.ธนพงศ์ อินทระ  
+*คณะวิทยาศาสตร์ มหาวิทยาลัยขอนแก่น*
+
+*Final Presentation Date: 11 March 2026*
+
+</div>
