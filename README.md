@@ -1,46 +1,55 @@
 <div align="center">
 
-# 🚀 AI Prototype & ML Systems
-### SC664401 | Academic Portfolio 2025-2026
+# 🌏 GeoVizion: AI Prototype & Data Science Portfolio
+### 🚀 Prototyping for AI and Machine Learning Systems (SC664401)
 
-**"From Concept to Deployment: My Journey in AI Prototyping"**
+![License](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Python](https://img.shields.io/badge/Stack-Python-blue)
+![Cloud](https://img.shields.io/badge/Platform-Azure%20%7C%20GitHub-purple)
 
 ---
 
-### 👤 Profile
-**กัญญ์วรา ถาวโรฤทธิ์** | รหัสนักศึกษา 653020200-1  
-*สาขาสถิติและวิทยาการข้อมูล (วิชาเอกสารสนเทศสถิติและวิทยาการข้อมูล)* 📍 มหาวิทยาลัยขอนแก่น | 📧 [kanvara.t@kkumail.com](mailto:kanvara.t@kkumail.com)
+### 👤 About Me
+**นางสาวกัญญ์วรา ถาวโรฤทธิ์ (Kanvara Thaworarit)** *Statistical Data Science Student (653020200-1)* **มหาวิทยาลัยขอนแก่น**
 
+📍 สถิติและวิทยาการข้อมูล (วิชาเอกสารสนเทศสถิติและวิทยาการข้อมูล)  
+📧 [kanvara.t@kkumail.com](mailto:kanvara.t@kkumail.com)
+
+---
 </div>
 
----
+## 📌 Project Overview
+โปรเจกต์นี้เป็นส่วนหนึ่งของการเรียนรู้การสร้างต้นแบบระบบปัญญาประดิษฐ์ (AI Prototype) โดยครอบคลุมตั้งแต่กระบวนการเตรียมสภาพแวดล้อม (Cloud VM), การควบคุมเวอร์ชัน (Git), ไปจนถึงการ Deployment เว็บแอปพลิเคชันที่ประมวลผลข้อมูลทางสถิติและภูมิศาสตร์
 
-## 🌐 Quick Access
-เข้าถึงผลงานและแหล่งข้อมูลของฉันได้จากลิงก์ด้านล่างนี้:
-
-| โปรเจกต์ | ลิงก์เข้าชม |
-| :--- | :--- |
-| **Project Web Page** | [🔗 Geo_Analysis](https://kanvara001.github.io/Geo_Analysis/) |
-| **Web Application** | [🔗 GeoVizion](https://geovizion.kku.ac.th) |
-| **Source Code** | [🔗 GitHub Repository](https://github.com/Kanvara001/AI-Prototype2025.git) |
+| **Web Page** | **Web Application** | **Repository** |
+|:---:|:---:|:---:|
+| [🔗 Click Here](https://kanvara001.github.io/Geo_Analysis/) | [🔗 Open GeoVizion](https://geovizion.kku.ac.th) | [🔗 View Source](https://github.com/Kanvara001/AI-Prototype2025.git) |
 
 ---
 
-## 📚 Learning Progress
-บันทึกการเรียนรู้เชิงปฏิบัติการในรายวิชา SC664401:
+## 🛠 Tech Stack & Knowledge
+* **Infrastructure:** Azure Cloud Virtual Machines, Ubuntu CLI
+* **Development:** Python, Flask/FastAPI, Jupyter Notebook
+* **Version Control:** Git & GitHub Workflow
+* **Deployment:** Web Application Hosting & API Management
 
-* **Class I:** [Ubuntu Command Line](Lecture%20Class%20I.md)
-* **Class II:** [Cloud Virtual Machines](Lecture%20Class%20II.md)
-* **Class III:** [Python Environment Setup](Lecture%20Class%20III.md)
-* **Class IV:** [Environment & Version Control](Lecture%20Class%20IV.md)
+---
+
+## 📚 Learning Path (Lectures)
+คลังความรู้และบันทึกการปฏิบัติการในรายวิชา:
+
+* **Class I: Ubuntu Command Line** — [📥 Download/View](Lecture%20Class%20I.md)
+* **Class II: Cloud Virtual Machines** — [📥 Download/View](Lecture%20Class%20II.md)
+* **Class III: Python Environment Setup** — [📥 Download/View](Lecture%20Class%20III.md)
+* **Class IV: Environment & Version Control** — [📥 Download/View](Lecture%20Class%20IV.md)
 
 ---
 
 <div align="center">
 
-**Course Instructor:** ผศ.ดร.ธนพงศ์ อินทระ  
-*คณะวิทยาศาสตร์ มหาวิทยาลัยขอนแก่น*
+### 🎓 Instructor
+**ผศ.ดร.ธนพงศ์ อินทระ** *คณะวิทยาศาสตร์ มหาวิทยาลัยขอนแก่น*
 
-*Final Presentation Date: 11 March 2026*
+*Final Presentation: March 11, 2026* **"Building the Future with Data"**
 
 </div>
