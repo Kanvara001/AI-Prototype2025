@@ -3,7 +3,7 @@
 # 🌍 GeoVizion: ระบบสารสนเทศเพื่อการตัดสินใจด้านสิ่งแวดล้อม
 
 
-[![GitHub](https://img.shields.io/badge/GitHub-View_Repository-181717?style=for-the-badge&logo=github)](https://github.com/Kanvara001/AI-Prototype2025.git)
+[![GitHub](https://img.shields.io/badge/GitHub-View_Repository-181717?style=for-the-badge&logo=github)]([https://github.com/Kanvara001/AI-Prototype2025.git](https://github.com/Kanvara001/Geo-Dash.git))
 [![Web App](https://img.shields.io/badge/Web_App-GeoVizion-0078D4?style=for-the-badge&logo=azure-devops)](https://geovizion.kku.ac.th)
 [![Project Page](https://img.shields.io/badge/Project-Geo_Analysis-FF6347?style=for-the-badge&logo=github-pages)](https://kanvara001.github.io/Geo_Analysis/)
 
