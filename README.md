@@ -36,12 +36,6 @@
 | **03** | **Python Environment Setup** | [View Notebook](Lecture%20Class%20III.md) |
 | **04** | **Environment & Version Control** | [View Notebook](Lecture%20Class%20IV.md) |
 
----
-
-## 🛠 Tech Stack
-* **Core:** Python, Flask, Jupyter
-* **Infrastructure:** Azure, Ubuntu CLI
-* **Deployment:** Cloud-based Prototyping
 
 ---
 
