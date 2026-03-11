@@ -45,6 +45,8 @@ GeoVizion เป็นระบบสารสนเทศเพื่อกา�
 | **02** | Cloud Virtual Machines | [ดูเนื้อหา](Lecture%20Class%20II.md) |
 | **03** | Python Environment Setup | [ดูเนื้อหา](Lecture%20Class%20III.md) |
 | **04** | Environment & Version Control | [ดูเนื้อหา](Lecture%20Class%20IV.md) |
+| **05** | Deploy Web App on Azure VM | [ดูเนื้อหา](Lecture%20Class%20V.md) |
+| **06** | AI Fundamentals & LLM Training | [ดูเนื้อหา](Lecture%20Class%20VI.md) |
 
 ---
 
